@@ -12,7 +12,7 @@
   "tabWidth": 2,
   "trailingComma": "none",
   "useTabs": false,
-  "importOrder": ["^@(.*)$", "^[./]"],
+  "importOrder": ["^@(.*)$", "^[./]"], #import params?
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
   "htmlWhitespaceSensitivity": "css",
