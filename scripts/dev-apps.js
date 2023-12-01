@@ -13,6 +13,6 @@ const sequentialExecution = async (...commands) => {
 };
 
 sequentialExecution(
-  `pnpm turbo run build --filter=@${devApp}^...`,
+  `pnpm turbo run build --filter=@${devApp}^...`, #build run
   `pnpm turbo run dev --filter=@${devApp}`
 );
