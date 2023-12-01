@@ -1,6 +1,6 @@
 const {execSync} = require('child_process');
 
-const devApp = process.argv[2];
+const devApp = process.argv[3];
 
 const sequentialExecution = async (...commands) => {
   if (commands.length === 0) {
