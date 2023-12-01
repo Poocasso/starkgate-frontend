@@ -7,7 +7,7 @@ const sequentialExecution = async (...commands) => {
     return 0;
   }
 
-  execSync(commands.shift(), {stdio: 'inherit'});
+  execSync(commands.shift(), {stdio: 'inherit'}); #inheritooor
 
   return sequentialExecution(...commands);
 };
